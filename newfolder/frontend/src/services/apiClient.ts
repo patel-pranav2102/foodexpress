@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5002/api";
+const API_URL = "https://foodexpress-1-w86r.onrender.com/api";
 
 const apiClient = axios.create({
   baseURL: API_URL,

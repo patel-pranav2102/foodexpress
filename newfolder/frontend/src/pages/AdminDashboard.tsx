@@ -51,7 +51,7 @@ const AdminDashboard = () => {
   const [processingId, setProcessingId] = useState<string | null>(null);
   const [activeTab, setActiveTab] = useState<"pending" | "all" | "confirmed" | "cancelled" | "completed">("pending");
 
-  const API_URL =  "http://localhost:5002/api";
+  const API_URL =  "https://foodexpress-1-w86r.onrender.com/api";
 
   // Redirect if not authenticated or not admin
   useEffect(() => {

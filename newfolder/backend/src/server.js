@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5002;
 
 app.use(
   cors({
-    origin: process.env.CORS_ORIGIN || 'http://localhost:5173',
+    origin: process.env.CORS_ORIGIN || 'https://foodexpress-xi-eight.vercel.app',
   })
 );
 
@@ -43,7 +43,7 @@ const startServer = async () => {
     await connectDB();
     app.listen(PORT, () => {
       console.log(`Server running on http://localhost:${PORT}`);
-      console.log(`Frontend running on ${process.env.CORS_ORIGIN || 'http://localhost:5173'}`);
+      console.log(`Frontend running on ${process.env.CORS_ORIGIN || 'https://foodexpress-xi-eight.vercel.app'}`);
     });
   } catch (error) {
     console.error('Failed to start server:', error);
