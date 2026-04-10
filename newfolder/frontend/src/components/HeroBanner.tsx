@@ -38,7 +38,7 @@ const HeroBanner = () => {
           >
             Explore top restaurants, read reviews, and find your next favorite meal — all in one place.
           </motion.p>
-          <motion.button
+          {/* <motion.button
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.5 }}
@@ -47,7 +47,7 @@ const HeroBanner = () => {
             className="mt-6 rounded-full bg-secondary px-8 py-3 text-sm font-bold font-body text-secondary-foreground shadow-lg hover:shadow-xl transition-shadow"
           >
             Explore Restaurants 🍴
-          </motion.button>
+          </motion.button> */}
         </motion.div>
       </div>
     </section>
