@@ -155,7 +155,7 @@ export default function SignUp() {
                   id="phone"
                   name="phone"
                   type="tel"
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="+91 1234567890"
                   value={formData.phone}
                   onChange={handleChange}
                   disabled={isLoading}

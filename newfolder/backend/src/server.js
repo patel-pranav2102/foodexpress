@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 5002;
 
 app.use(
   cors({
-    origin: (process.env.CORS_ORIGIN || 'https://foodexpress-xi-eight.vercel.app').split(','),
+    origin: (process.env.CORS_ORIGIN || 'https://foodexpress-xi-eight.vercel.app').split(',').map(o => o.trim()),
     credentials: true,
   })
 );
